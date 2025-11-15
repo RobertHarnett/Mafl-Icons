@@ -169,7 +169,7 @@ services:
       icon:
         url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/homeassistant.svg
         wrap: true
-        background: '#000000'
+        background: '#18BCF2'
       status:
         enabled: true
         animation: true
