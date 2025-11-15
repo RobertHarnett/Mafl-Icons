@@ -1,0 +1,95 @@
+title: My Home Page
+lang: en
+theme: system
+checkUpdates: true
+
+behaviour:
+  target: _blank
+
+layout:
+  grid:
+    small: 2
+    medium: 2
+    large: 3
+    xlarge: 4
+
+tags:
+  - name: Home
+    color: yellow
+  - name: Work
+    color: blue
+
+
+services:
+
+  Favourites:
+    - title: YouTube
+      description: My subscriptions
+      link: https://www.youtube.com/feed/subscriptions
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Maf>
+
+    - title: Calendar
+      description:
+      link: https://calendar.google.com/calendar/
+      target: _self
+      icon:
+        name: simple-icons:googlecalendar
+        wrap: true
+        color: '#4285F4'
+        background: '#ffffff'
+
+  Home:
+    - title: Home Assistant
+      description: Home automation system
+      link: '#'
+      icon:
+        name: simple-icons:homeassistant
+        wrap: true
+        color: '#3dbcf3'
+      tags:
+        - Home
+    - title: AdGuard
+      description: Ad blocking service
+      link: '#'
+      icon:
+        name: simple-icons:adguard
+        wrap: true
+        color: '#68bc71'
+
+ Cloud:
+    - title: Traefik
+      description: Cloud edge router
+      link: '#'
+      icon:
+        name: devicon:traefikproxy
+        wrap: true
+    - title: Portainer
+      description: Docker container management
+      link: '#'
+      icon:
+        name: devicon:portainer
+        wrap: true
+    - title: Grafana
+      description: Server monitoring dashboards
+      link: '#'
+      icon:
+        name: logos:grafana
+        wrap: true
+
+  Devices:
+    - title: Router
+      description: Keenetic Peak
+      link: '#'
+      icon:
+        name: bi:router-fill
+        wrap: true
+    - title: NAS
+      description: Network storage
+      link: '#'
+      icon:
+        name: mdi:nas
+        wrap: true
+
+
