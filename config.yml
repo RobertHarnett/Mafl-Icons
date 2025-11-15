@@ -29,23 +29,60 @@ services:
       target: _self
       icon:
         url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/1acc77136f9d9ae413f28da0fd5cad718d0fdb55/Icons/youtube.svg
+        wrap: true
+        background: '#ffffff'
 
     - title: FreshRSS
-      description:
-      link: https://www.news.harnett.uk
+      description: My RSS feeds
+      link: https://news.harnett.uk
       target: _self
       icon:
         url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/1acc77136f9d9ae413f28da0fd5cad718d0fdb55/Icons/freshrss.svg
+        wrap: true
+        background: '#ffffff'
+      status:
+        enabled: true
 
-    - title: Calendar
-      description:
-      link: https://calendar.google.com/calendar/
+    - title: BBC News
+      description: Homepage
+      link: https://www.bbc.co.uk/news
       target: _self
       icon:
-        name: simple-icons:googlecalendar
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/1acc77136f9d9ae413f28da0fd5cad718d0fdb55/Icons/bbcnews.svg
         wrap: true
-        color: '#4285F4'
+        background: '#000000'
+
+    - title: Plex
+      description: Television and movies
+      link: http://65.108.239.185:42424/
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/1acc77136f9d9ae413f28da0fd5cad718d0fdb55/Icons/plex.svg
+        wrap: true
+        background: '#000000'
+      status:
+        enabled: true
+
+    - title: Karakeep
+      description: Bookmark manager
+      link: https://bookmarks.harnett.uk
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/1acc77136f9d9ae413f28da0fd5cad718d0fdb55/Icons/karakeep.svg
+        wrap: true
         background: '#ffffff'
+      status:
+        enabled: true
+
+    - title: The Verge
+      description: The latest tech news and reviews
+      link: https://www.theverge.com/
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/1acc77136f9d9ae413f28da0fd5cad718d0fdb55/Icons/theverge.svg
+        wrap: true
+        background: '#ffffff'
+
 
   Home:
     - title: Home Assistant

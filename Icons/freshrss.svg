@@ -13,14 +13,14 @@
                         <circle cx="128" cy="128" r="33" style="fill:rgb(0,98,190);"/>
                     </g>
                     <g transform="matrix(1.539399,0,0,1.539399,103.900693,60.890926)">
-                        <path d="M12,128C12,64.364 64.364,12 128,12C191.636,12 244,64.364 244,128C244,191.636 191.636,244 128,244" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-opacity:0.3;stroke-width:24px;"/>
-                        <path d="M54,128C54,87.405 87.405,54 128,54C168.595,54 202,87.405 202,128C202,168.595 168.595,202 128,202" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-opacity:0.3;stroke-width:24px;"/>
+                        <path d="M12,128c-0,-63.636 52.364,-116 116,-116c63.636,-0 116,52.364 116,116c0,63.636 -52.364,116 -116,116" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-opacity:0.3;stroke-width:24px;"/>
+                        <path d="M54,128c-0,-40.595 33.405,-74 74,-74c40.595,-0 74,33.405 74,74c0,40.595 -33.405,74 -74,74" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-opacity:0.3;stroke-width:24px;"/>
                     </g>
                     <g transform="matrix(1.539399,0,0,1.539399,103.900693,60.890926)">
-                        <path d="M128,12C191.636,12 244,64.364 244,128" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-width:24px;"/>
+                        <path d="M128,24l0,-24c70.219,-0 128,57.781 128,128l-24,0c0,-57.053 -46.947,-104 -104,-104Z" style="fill:rgb(0,98,190);"/>
                     </g>
                     <g transform="matrix(1.539399,0,0,1.539399,103.900693,60.890926)">
-                        <path d="M128,54C168.595,54 202,87.405 202,128" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-width:24px;"/>
+                        <path d="M128,66l0,-24c47.178,-0 86,38.822 86,86l-24,0c0,-34.012 -27.988,-62 -62,-62Z" style="fill:rgb(0,98,190);"/>
                     </g>
                 </g>
             </g>
