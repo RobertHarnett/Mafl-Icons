@@ -19,7 +19,7 @@ services:
   Favourites:
 
     - title: YouTube
-      description: My subscriptions
+      description:
       link: https://www.youtube.com/feed/subscriptions
       target: _self
       icon:
@@ -28,7 +28,7 @@ services:
         background: '#ffffff'
 
     - title: FreshRSS
-      description: My RSS feeds
+      description:
       link: https://news.harnett.uk
       target: _self
       icon:
@@ -37,10 +37,10 @@ services:
         background: '#ffffff'
       status:
         enabled: true
-        animation: false
+        animation: true
 
     - title: BBC News
-      description: Homepage
+      description:
       link: https://www.bbc.co.uk/news
       target: _self
       icon:
@@ -49,7 +49,7 @@ services:
         background: '#000000'
 
     - title: Plex
-      description: Television and movies
+      description:
       link: http://65.108.239.185:42424/
       target: _self
       icon:
@@ -58,10 +58,10 @@ services:
         background: '#000000'
       status:
         enabled: true
-        animation: false
+        animation: true
 
     - title: Karakeep
-      description: Bookmark manager
+      description:
       link: https://bookmarks.harnett.uk
       target: _self
       icon:
@@ -70,10 +70,10 @@ services:
         background: '#ffffff'
       status:
         enabled: true
-        animation: false
+        animation: true
 
     - title: The Verge
-      description: The latest tech news and reviews
+      description:
       link: https://www.theverge.com/
       target: _self
       icon:
@@ -82,7 +82,7 @@ services:
         background: '#4902F4'
 
     - title: Google Gemini
-      description: AI-powered assistant
+      description:
       link: https://gemini.google.com/
       target: _self
       icon:
@@ -91,7 +91,7 @@ services:
         background: '#ffffff'
 
     - title: Vanguard
-      description: Savings account
+      description:
       link: https://secure.vanguardinvestor.co.uk/en-gb/customer/home/000-0000347898/dashboard
       target: _self
       icon:
@@ -100,7 +100,7 @@ services:
         background: '#96151D'
 
     - title: Unifi
-      description: Manage and monitor your UniFi network
+      description:
       link: https://unifi.ui.com/dashboard
       target: _self
       icon:
@@ -118,7 +118,7 @@ services:
         background: '#ffffff'
 
     - title: Proton Mail
-      description: View my emails
+      description:
       link: https://mail.proton.me/u/0/inbox
       target: _self
       icon:
@@ -127,7 +127,7 @@ services:
         background: '#ffffff'
 
     - title: Google Photos
-      description: View my photos
+      description:
       link: https://photos.google.com/
       target: _self
       icon:
@@ -136,7 +136,7 @@ services:
         background: '#ffffff'
 
     - title: BBC iPlayer
-      description: Watch content form the Beeb
+      description:
       link: https://www.bbc.co.uk/iplayer
       target: _self
       icon:
@@ -145,7 +145,7 @@ services:
         background: '#000000'
 
     - title: Google Calendar
-      description: Manage my personal schedule
+      description:
       link: https://calendar.google.com/calendar/
       target: _self
       icon:
@@ -154,10 +154,22 @@ services:
         background: '#ffffff'
 
     - title: Ars Technica
-      description: News and opinions in technology, science and society
+      description:
       link: https://arstechnica.com/
       target: _self
       icon:
         url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/arstechnica.svg
         wrap: true
         background: '#000000'
+
+    - title: Home Assistant
+      description:
+      link: https://home.harnett.uk
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/homeassistant.svg
+        wrap: true
+        background: '#000000'
+      status:
+        enabled: true
+        animation: true
