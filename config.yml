@@ -1,4 +1,4 @@
-title: My Home Page
+title: Dashboard
 lang: en
 theme: system
 checkUpdates: true
@@ -13,16 +13,11 @@ layout:
     large: 3
     xlarge: 4
 
-tags:
-  - name: Home
-    color: yellow
-  - name: Work
-    color: blue
-
 
 services:
 
   Favourites:
+
     - title: YouTube
       description: My subscriptions
       link: https://www.youtube.com/feed/subscriptions
@@ -95,54 +90,20 @@ services:
         wrap: true
         background: '#ffffff'
 
-  Home:
-    - title: Home Assistant
-      description: Home automation system
-      link: '#'
+    - title: Vanguard
+      description: Savings account
+      link: https://secure.vanguardinvestor.co.uk/en-gb/customer/home/000-0000347898/dashboard
+      target: _self
       icon:
-        name: simple-icons:homeassistant
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/vanguard.svg
         wrap: true
-        color: '#3dbcf3'
-      tags:
-        - Home
-    - title: AdGuard
-      description: Ad blocking service
-      link: '#'
-      icon:
-        name: simple-icons:adguard
-        wrap: true
-        color: '#68bc71'
+        background: '#96151D'
 
-  Cloud:
-    - title: Traefik
-      description: Cloud edge router
-      link: '#'
+    - title: Unifi
+      description: Manage and monitor your UniFi network
+      link: https://unifi.ui.com/dashboard
+      target: _self
       icon:
-        name: devicon:traefikproxy
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/unifi.svg
         wrap: true
-    - title: Portainer
-      description: Docker container management
-      link: '#'
-      icon:
-        name: devicon:portainer
-        wrap: true
-    - title: Grafana
-      description: Server monitoring dashboards
-      link: '#'
-      icon:
-        name: logos:grafana
-        wrap: true
-
-  Devices:
-    - title: Router
-      description: Keenetic Peak
-      link: '#'
-      icon:
-        name: bi:router-fill
-        wrap: true
-    - title: NAS
-      description: Network storage
-      link: '#'
-      icon:
-        name: mdi:nas
-        wrap: true
+        background: '#0559C9'
