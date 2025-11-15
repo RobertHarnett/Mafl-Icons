@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-150,0)">
+        <g id="freshrss" transform="matrix(1,0,0,1,150,0)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="100" height="100"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <rect x="0" y="0" width="100" height="100" style="fill:white;"/>
+                <g id="Layer-1" serif:id="Layer 1" transform="matrix(0.212801,0,0,0.212801,-14.042168,-4.888706)">
+                    <g transform="matrix(1.539399,0,0,1.539399,103.900693,60.890926)">
+                        <circle cx="128" cy="128" r="33" style="fill:rgb(0,98,190);"/>
+                    </g>
+                    <g transform="matrix(1.539399,0,0,1.539399,103.900693,60.890926)">
+                        <path d="M12,128C12,64.364 64.364,12 128,12C191.636,12 244,64.364 244,128C244,191.636 191.636,244 128,244" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-opacity:0.3;stroke-width:24px;"/>
+                        <path d="M54,128C54,87.405 87.405,54 128,54C168.595,54 202,87.405 202,128C202,168.595 168.595,202 128,202" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-opacity:0.3;stroke-width:24px;"/>
+                    </g>
+                    <g transform="matrix(1.539399,0,0,1.539399,103.900693,60.890926)">
+                        <path d="M128,12C191.636,12 244,64.364 244,128" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-width:24px;"/>
+                    </g>
+                    <g transform="matrix(1.539399,0,0,1.539399,103.900693,60.890926)">
+                        <path d="M128,54C168.595,54 202,87.405 202,128" style="fill:none;fill-rule:nonzero;stroke:rgb(0,98,190);stroke-width:24px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
