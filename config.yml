@@ -18,50 +18,8 @@ services:
 
   Favourites:
 
-    - title: YouTube
-      description:
-      link: https://www.youtube.com/feed/subscriptions
-      target: _self
-      icon:
-        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/youtube.svg
-        wrap: true
-        background: '#ffffff'
-
-    - title: FreshRSS
-      description:
-      link: https://news.harnett.uk
-      target: _self
-      icon:
-        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/freshrss.svg
-        wrap: true
-        background: '#ffffff'
-      status:
-        enabled: true
-        animation: true
-
-    - title: BBC News
-      description:
-      link: https://www.bbc.co.uk/news
-      target: _self
-      icon:
-        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/bbcnews.svg
-        wrap: true
-        background: '#000000'
-
-    - title: Plex
-      description:
-      link: http://65.108.239.185:42424/
-      target: _self
-      icon:
-        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/plex.svg
-        wrap: true
-        background: '#000000'
-      status:
-        enabled: true
-        animation: true
-
     - title: Karakeep
-      description:
+      description: Bookmarks
       link: https://bookmarks.harnett.uk
       target: _self
       icon:
@@ -72,17 +30,8 @@ services:
         enabled: true
         animation: true
 
-    - title: The Verge
-      description:
-      link: https://www.theverge.com/
-      target: _self
-      icon:
-        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/theverge.svg
-        wrap: true
-        background: '#4902F4'
-
     - title: Google Gemini
-      description:
+      description: AI assistant
       link: https://gemini.google.com/
       target: _self
       icon:
@@ -91,7 +40,7 @@ services:
         background: '#ffffff'
 
     - title: Vanguard
-      description:
+      description: Savings ISA
       link: https://secure.vanguardinvestor.co.uk/en-gb/customer/home/000-0000347898/dashboard
       target: _self
       icon:
@@ -100,7 +49,7 @@ services:
         background: '#96151D'
 
     - title: Unifi
-      description:
+      description: Home network
       link: https://unifi.ui.com/dashboard
       target: _self
       icon:
@@ -109,7 +58,7 @@ services:
         background: '#0559C9'
 
     - title: Proton Pass
-      description:
+      description: Password manager
       link:
       target: _self
       icon:
@@ -118,7 +67,7 @@ services:
         background: '#ffffff'
 
     - title: Proton Mail
-      description:
+      description: Emails
       link: https://mail.proton.me/u/0/inbox
       target: _self
       icon:
@@ -127,7 +76,7 @@ services:
         background: '#ffffff'
 
     - title: Google Photos
-      description:
+      description: Personal photos and memories
       link: https://photos.google.com/
       target: _self
       icon:
@@ -135,17 +84,8 @@ services:
         wrap: true
         background: '#ffffff'
 
-    - title: BBC iPlayer
-      description:
-      link: https://www.bbc.co.uk/iplayer
-      target: _self
-      icon:
-        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/bbciplayer.svg
-        wrap: true
-        background: '#000000'
-
     - title: Google Calendar
-      description:
+      description: Personal scheduling
       link: https://calendar.google.com/calendar/
       target: _self
       icon:
@@ -153,8 +93,81 @@ services:
         wrap: true
         background: '#ffffff'
 
+    - title: Home Assistant
+      description: Smart home
+      link: https://home.harnett.uk
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/homeassistant.svg
+        wrap: true
+        background: '#18BCF2'
+      status:
+        enabled: true
+        animation: true
+
+  Entertainment:
+
+    - title: YouTube
+      description: My subscriptions
+      link: https://www.youtube.com/feed/subscriptions
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/youtube.svg
+        wrap: true
+        background: '#ffffff'
+
+    - title: Plex
+      description: Movies & TV
+      link: http://65.108.239.185:42424/
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/plex.svg
+        wrap: true
+        background: '#000000'
+      status:
+        enabled: true
+        animation: true
+
+    - title: BBC iPlayer
+      description: TV from the beeb
+      link: https://www.bbc.co.uk/iplayer
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/bbciplayer.svg
+        wrap: true
+        background: '#000000'
+
+  News:
+
+    - title: BBC News
+      description: Latest UK news
+      link: https://www.bbc.co.uk/news
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/bbcnews.svg
+        wrap: true
+        background: '#000000'
+
+    - title: the Guardian
+      description: UK news, analysis, & opinion
+      link: https://www.theguardian.com/uk
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/theguardian.svg
+        wrap: true
+        background: '#1F2E60'
+
+    - title: The Verge
+      description: Tech news & reviews
+      link: https://www.theverge.com/
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/theverge.svg
+        wrap: true
+        background: '#4902F4'
+
     - title: Ars Technica
-      description:
+      description: Technology & science
       link: https://arstechnica.com/
       target: _self
       icon:
@@ -162,14 +175,14 @@ services:
         wrap: true
         background: '#000000'
 
-    - title: Home Assistant
-      description:
-      link: https://home.harnett.uk
+    - title: FreshRSS
+      description: My RSS feeds
+      link: https://news.harnett.uk
       target: _self
       icon:
-        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/homeassistant.svg
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/freshrss.svg
         wrap: true
-        background: '#18BCF2'
+        background: '#ffffff'
       status:
         enabled: true
         animation: true
