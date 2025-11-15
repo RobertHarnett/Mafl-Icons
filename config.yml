@@ -28,7 +28,14 @@ services:
       link: https://www.youtube.com/feed/subscriptions
       target: _self
       icon:
-        url: https://raw.githubusercontent.com/RobertHarnett/Maf>
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/1acc77136f9d9ae413f28da0fd5cad718d0fdb55/Icons/youtube.svg
+
+    - title: FreshRSS
+      description:
+      link: https://www.news.harnett.uk
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/1acc77136f9d9ae413f28da0fd5cad718d0fdb55/Icons/freshrss.svg
 
     - title: Calendar
       description:
@@ -58,7 +65,7 @@ services:
         wrap: true
         color: '#68bc71'
 
- Cloud:
+  Cloud:
     - title: Traefik
       description: Cloud edge router
       link: '#'
@@ -91,5 +98,3 @@ services:
       icon:
         name: mdi:nas
         wrap: true
-
-
