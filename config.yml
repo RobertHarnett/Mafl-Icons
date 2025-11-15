@@ -83,7 +83,7 @@ services:
 
     - title: Google Gemini
       description: AI-powered assistant
-      link: https://gemini.google.com/app
+      link: https://gemini.google.com/
       target: _self
       icon:
         url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/googlegemini.svg
@@ -107,3 +107,57 @@ services:
         url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/unifi.svg
         wrap: true
         background: '#0559C9'
+
+    - title: Proton Pass
+      description:
+      link:
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/protonpass.svg
+        wrap: true
+        background: '#ffffff'
+
+    - title: Proton Mail
+      description: View my emails
+      link: https://mail.proton.me/u/0/inbox
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/protonmail.svg
+        wrap: true
+        background: '#ffffff'
+
+    - title: Google Photos
+      description: View my photos
+      link: https://photos.google.com/
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/googlephotos.svg
+        wrap: true
+        background: '#ffffff'
+
+    - title: BBC iPlayer
+      description: Watch content form the Beeb
+      link: https://www.bbc.co.uk/iplayer
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/bbciplayer.svg
+        wrap: true
+        background: '#000000'
+
+    - title: Google Calendar
+      description: Manage my personal schedule
+      link: https://calendar.google.com/calendar/
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/googlecalendar.svg
+        wrap: true
+        background: '#ffffff'
+
+    - title: Ars Technica
+      description: News and opinions in technology, science and society
+      link: https://arstechnica.com/
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/arstechnica.svg
+        wrap: true
+        background: '#000000'
