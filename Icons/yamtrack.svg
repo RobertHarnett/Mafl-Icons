@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-300,-450)">
+        <g id="yamtrack" transform="matrix(1,0,0,1,300,450)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <g transform="matrix(0.099497,0,0,0.099497,2.251424,97.749308)">
+                <g id="Layer-1" serif:id="Layer 1">
+                    <path d="M228,-85c-22,3.333 -41.833,-1.833 -59.5,-15.5c-17.667,-13.667 -27.833,-31.5 -30.5,-53.5l-53,-437c-2.667,-22 2.667,-41.667 16,-59c13.333,-17.333 31,-27.333 53,-30l46,-6l0,326c0,44 15.667,81.667 47,113c31.333,31.333 69,47 113,47l372,0c-4,16 -12,29.833 -24,41.5c-12,11.667 -26.667,18.5 -44,20.5l-436,53Zm132,-195c-22,0 -40.833,-7.833 -56.5,-23.5c-15.667,-15.667 -23.5,-34.5 -23.5,-56.5l0,-440c0,-22 7.833,-40.833 23.5,-56.5c15.667,-15.667 34.5,-23.5 56.5,-23.5l440,0c22,0 40.833,7.833 56.5,23.5c15.667,15.667 23.5,34.5 23.5,56.5l0,440c0,22 -7.833,40.833 -23.5,56.5c-15.667,15.667 -34.5,23.5 -56.5,23.5l-440,0Zm131.714,-152l232.571,-148l-232.571,-149.6l0,297.6Z" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -75,6 +75,16 @@ services:
         wrap: true
         background: '#ffffff'
 
+    - title: Unifi
+      description: Home network
+      link: https://unifi.ui.com/dashboard
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/unifi.svg
+        wrap: true
+        background: '#0559C9'
+
+
     - title: Google Photos
       description: Personal photos and memories
       link: https://photos.google.com/
@@ -104,6 +114,15 @@ services:
       status:
         enabled: true
         animation: true
+
+    - title: Vanguard
+      description: Savings ISA
+      link: https://secure.vanguardinvestor.co.uk/en-gb/customer/home/000-0000347898/dashboard
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/vanguard.svg
+        wrap: true
+        background: '#96151D'
 
   Entertainment:
 
@@ -136,6 +155,15 @@ services:
         url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/bbciplayer.svg
         wrap: true
         background: '#000000'
+
+    - title: Yamtrack
+      description: Media tracker & watchlist
+      link: https://watchlist.harnett.uk/
+      target: _self
+      icon:
+        url: https://raw.githubusercontent.com/RobertHarnett/Mafl-Icons/refs/heads/main/Icons/yamtrack.svg
+        wrap: true
+        background: '#1A1D20'
 
   News:
 
